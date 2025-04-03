@@ -37,7 +37,7 @@ A  simulator for CPU scheduling algorithms (FCFS, SJF(Preemptive and Non-preempt
 
 ---------------------------------------------------------------------------------------------------------------------
 
---> System Requirements <--
+## System Requirements 
 
 * Hardware Requirements
 1. Any modern Windows computer
@@ -50,7 +50,7 @@ A  simulator for CPU scheduling algorithms (FCFS, SJF(Preemptive and Non-preempt
    Download from: https://sourceforge.net/projects/mingw/
    Version: 6.0 or later recommended
 
-* Installation Steps
+**Installation Steps**
 
 1. Install G++ Compiler:
    -> Download MinGW installer from the official website
@@ -75,7 +75,7 @@ A  simulator for CPU scheduling algorithms (FCFS, SJF(Preemptive and Non-preempt
    -> Should display G++ version information
 
 
---> Building the Project <--
+## Building the Project
 
 
 * On Windows:
@@ -96,7 +96,7 @@ Note: First install all the project Files and Structure Them Same as Shown
 Note: Run All the commands without single quotes ('')
 
 
---> Troubleshooting Build Issues: <--
+## Troubleshooting Build Issues:
 1. **"g++ is not recognized"**:
    -> Verify G++ is installed
    -> Check if PATH is set correctly
@@ -108,7 +108,7 @@ Note: Run All the commands without single quotes ('')
    -> Check for syntax errors in source files
 
 
---> Running the Simulator  <--
+## Running the Simulator 
 
 1. After successful compilation, run:
      'cpu_scheduler.exe'
@@ -127,7 +127,7 @@ Note: Run All the commands without single quotes ('')
    -> Input process details (arrival time, burst time, priority, timequantum)
 
 
---> Features <--
+## Features 
 
 -> Interactive menu system
 -> Process input with arrival time, burst time, priority and with timequantum
@@ -136,14 +136,14 @@ Note: Run All the commands without single quotes ('')
 -> Detailed process table display with input features and output labels
 
 
---> Performance Metrics <--
+## Performance Metrics 
 
 The simulator calculates and displays:
 -> Average Turnaround Time
 -> Average Waiting Time
 -> Individual process metrics
 
---> Portability <--
+## Portability 
 
 The project is portable across Windows systems. To move to another computer:
 1. Copy all project files maintaining the directory structure
@@ -151,7 +151,7 @@ The project is portable across Windows systems. To move to another computer:
 3. Run build.bat to compile
 4. Run cpu_scheduler.exe to start the simulator
 
---> Support <--
+## Support 
 
 For issues or questions:
 1. Check the troubleshooting section
