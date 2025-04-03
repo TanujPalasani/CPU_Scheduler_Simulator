@@ -3,38 +3,33 @@
 A  simulator for CPU scheduling algorithms (FCFS, SJF(Preemptive and Non-preemptive), RoundRobin, Priority(Preemptive and Non-preemptive) Scheduling) with CLI based real-time visualizations. The simulator will allow users to input processes with arrival times, burst times, and priorities and it outputs Ganttcharts, Process Table and Performance Metrics like average waiting time and turnaround time.
 
 
---> Project Structure  <--
-
+## Project Structure  
 
 ---------------------------------------------------------------------------------------------------------------------
-
-.
-├── include/              // Header files
-│   └── scheduler.h       // Main header file with data structures and function declarations
-├── src/                  // Source files
-│   └── main.cpp          // Main program entry point for execution 
-|
-├── algorithms/           // Scheduling algorithm implementations
-│   ├── fcfs.cpp
-│   ├── sjf_nonpreemptive.cpp
-│   ├── sjf_preemptive.cpp
-│   ├── round_robin.cpp
-│   ├── priority_nonpreemptive.cpp
-│   └── priority_preemptive.cpp
-|
-├── utils/                // Utility functions
-│   ├── input.cpp         // Process input handling
-│   ├── gantt.cpp         // Gantt chart visualization
-│   ├── metrics.cpp       // Performance metrics calculation
-│   └── process_table.cpp // Process table display code
-|
-├── build.bat             // Windows build script
-|
-├── LICENSE               //Open Source MIT License
-|
-└── README.md             // Project documentation
-
-
+ .
+ |-include/
+ |   |-scheduler.h   // Header files
+ |
+ |-src/              // Source files
+ |   |-main.cpp      // Main program entry point for execution
+ |
+ |-algorithms/       // Scheduling algorithm implementations
+ |   |-fcfs.cpp
+ |   |-sjf_nonpreemptive.cpp
+ |   |-sjf_preemptive.cpp
+ |   |-round_robin.cpp
+ |   |-priority_nonpreemptive.cpp
+ |   |-priority_preemptive.cpp
+ |
+ |-utils/
+ |   |-input.cpp      // Utility functions
+ |   |-gantt.cpp
+ |   |-metrics.cpp
+ |   |-process_table.cpp
+ |
+ |-build.bat          // Windows build script
+ |-LICENSE
+ |-README.md
 ---------------------------------------------------------------------------------------------------------------------
 
 ## System Requirements 
