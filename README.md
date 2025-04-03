@@ -3,9 +3,8 @@
 A  simulator for CPU scheduling algorithms (FCFS, SJF(Preemptive and Non-preemptive), RoundRobin, Priority(Preemptive and Non-preemptive) Scheduling) with CLI based real-time visualizations. The simulator will allow users to input processes with arrival times, burst times, and priorities and it outputs Ganttcharts, Process Table and Performance Metrics like average waiting time and turnaround time.
 
 
-## Project Structure  
-
----------------------------------------------------------------------------------------------------------------------
+## Project Structure 
+```
  .
  |-include/
  |   |-scheduler.h   // Header files
@@ -30,7 +29,7 @@ A  simulator for CPU scheduling algorithms (FCFS, SJF(Preemptive and Non-preempt
  |-build.bat          // Windows build script
  |-LICENSE
  |-README.md
----------------------------------------------------------------------------------------------------------------------
+```
 
 ## System Requirements 
 
